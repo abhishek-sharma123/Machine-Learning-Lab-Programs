@@ -30,6 +30,7 @@ for j in range(0,num_attributes):
 print("\nCandidate Elimination Algorithm Hypothesis Version Space Computation\n")
 temp=[]
 
+#Candidate Elimination Algorithm
 for i in range(0,len(a)):
     print("--------------------------------------------")
     if a[i][num_attributes] == 'Yes':
