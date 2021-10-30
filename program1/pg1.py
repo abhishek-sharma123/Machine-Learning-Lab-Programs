@@ -10,6 +10,7 @@ import csv
 
 
 def read_data(filename):
+    #Loading the data into traindata list.
     with open(filename,"r") as csvfile:
         datareader=csv.reader(csvfile,delimiter=',')
         traindata=[]
