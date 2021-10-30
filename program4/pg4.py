@@ -25,7 +25,7 @@ inputlayer_neurons = 2
 hiddenlayer_neurons = 3 
 output_neurons = 1 
 
-#weight and bias initialization
+#weight and bias initialization for neurons
 wh=np.random.uniform(size=(inputlayer_neurons,hiddenlayer_neurons))
 bh=np.random.uniform(size=(1,hiddenlayer_neurons))
 wout=np.random.uniform(size=(hiddenlayer_neurons,output_neurons))
